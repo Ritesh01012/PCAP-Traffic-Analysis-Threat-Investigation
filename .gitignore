@@ -1,0 +1,28 @@
+# PCAP files (large binary files)
+*.pcap
+*.pcapng
+*.cap
+
+# Extracted files from PCAPs (potential malware)
+captures/exported/*
+!captures/exported/.gitkeep
+
+# Screenshots (personal info may be visible)
+screenshots/*
+!screenshots/.gitkeep
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+*.tmp
+*.log

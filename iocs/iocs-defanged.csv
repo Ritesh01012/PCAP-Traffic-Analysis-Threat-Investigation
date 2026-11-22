@@ -1,0 +1,10 @@
+Type,Value,Context,Source,First_Seen,Confidence
+IP,203[.]0[.]113[.]50,Malware download host,Scenario A,2026-11-22,Medium-High
+IP,198[.]51[.]100[.]77,C2 beaconing server,Scenario A,2026-11-22,Medium-High
+Domain,update-check[.]example,Payload delivery domain,Scenario A,2026-11-22,Medium-High
+Domain,cdn-sync[.]example,C2 domain,Scenario A,2026-11-22,Medium-High
+URL,hxxp://update-check[.]example/files/invoice_viewer.exe,Executable download URL,Scenario A,2026-11-22,High
+File,invoice_viewer.exe,Downloaded executable,Scenario A,2026-11-22,High
+Hash,<SHA-256 hash>,invoice_viewer.exe hash,Scenario A,2026-11-22,High
+User-Agent,<suspicious user agent string>,Malware client,Scenario A,2026-11-22,Medium
+Certificate,Self-signed,30-day validity,Scenario A,2026-11-22,Medium

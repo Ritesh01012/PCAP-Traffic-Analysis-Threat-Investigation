@@ -1,0 +1,2 @@
+# This file ensures the captures directory is tracked by git
+# Do not commit actual PCAP files - link to external sources instead
